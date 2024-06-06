@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chat-box">
+        <div class="chat-box__form">
+            <input type="text" placeholder="Здесь вводится текст сообщения"  class="form__input" />
+            <button class="btn" id="form__btn_send" onclick="btnSendClik()">Отправить</button>
+            <button class="btn" id="form__btn_geolocation" onclick="btnGeolocationClik()">Гео-локация</button>
+        </div>
+        <div class="wrap">
+            <div class="message"></div>
+            <p class="error"></p>
+        </div>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
